@@ -1,4 +1,4 @@
-import { View, Text, Button } from "react-native";
+import { View, Text, Button, Pressable } from "react-native";
 
 const ButtonComponent = () => {
   return (
@@ -7,7 +7,7 @@ const ButtonComponent = () => {
       {/* <Button title="Click Me" color="#16b3b5" /> */}
       {/* <Button title="Click Me" color="#16b3b5" disabled></Button> */}
       {/* Events */}
-      <Button
+      {/* <Button
         title="Click & Check"
         onPress={() => console.log("Pressed")}
       ></Button>
@@ -15,7 +15,19 @@ const ButtonComponent = () => {
         title="Click & Check"
         onPress={() => console.warn("Pressed")}
       ></Button>
-      <Button title="Click & Check" onPress={() => alert("Pressed")}></Button>
+      <Button title="Click & Check" onPress={() => alert("Pressed")}></Button> */}
+      <Pressable onPress={() => console.log("Pressed")}>
+        <Text style={{ color: "#16b3b5" }}>Press</Text>
+      </Pressable>
+      <Pressable onPressIn={() => console.log("PressedIn")}>
+        <Text style={{ color: "#16b3b5" }}>Press</Text>
+      </Pressable>
+      <Pressable onPressOut={() => console.log("PressedOut")}>
+        <Text style={{ color: "#16b3b5" }}>Press</Text>
+      </Pressable>
+      <Pressable onLongPress={() => console.log("LongPressed")}>
+        <Text style={{ color: "#16b3b5" }}>Press</Text>
+      </Pressable>
     </View>
   );
 };
