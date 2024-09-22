@@ -1,14 +1,20 @@
 import { View } from "react-native";
-import InlineStyle from "../components/InlineStyle";
-import InternalStyle from "../components/InternalStyle";
-import ExternalStyle from "../components/ExternalStyle";
+import NameComponents from "../components/NameComponents";
+import AgeComponents from "../components/AgeComponents";
+import XHandlerComponents from "../components/XHandlerComponents";
+import FavSubjectCompoents from "../components/FavSubjectCompoents";
+import CardComponents from "../components/CardComponents";
+import CarComponent from "../components/CarCompoents";
 
 const Index = () => {
   return (
     <View>
-      <InlineStyle />
-      <InternalStyle />
-      <ExternalStyle />
+      <CarComponent />
+      <CardComponents />
+      <NameComponents />
+      <AgeComponents />
+      <XHandlerComponents />
+      <FavSubjectCompoents />
     </View>
   );
 };
