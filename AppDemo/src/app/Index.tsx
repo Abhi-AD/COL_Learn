@@ -1,10 +1,14 @@
 import { View } from "react-native";
-import CarComponent from "../components/CarComponent";
+import InlineStyle from "../components/InlineStyle";
+import InternalStyle from "../components/InternalStyle";
+import ExternalStyle from "../components/ExternalStyle";
 
 const Index = () => {
   return (
     <View>
-      <CarComponent />
+      <InlineStyle />
+      <InternalStyle />
+      <ExternalStyle />
     </View>
   );
 };
