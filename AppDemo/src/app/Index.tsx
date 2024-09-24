@@ -1,10 +1,14 @@
 import { View } from "react-native";
-import ParentComponent from "../components/ParentComponent";
+import ConditionalStatement from "../components/ConditionalStatement";
+import ANDOperator from "../components/ANDOperator";
+import TernaryOperator from "../components/TernaryOperator";
 
 const Index = () => {
   return (
     <View>
-      <ParentComponent />
+      <ConditionalStatement />
+      <ANDOperator />
+      <TernaryOperator />
     </View>
   );
 };
