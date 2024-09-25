@@ -1,10 +1,10 @@
 import { Text, View } from "react-native";
-import SeaFoodMeals from "../components/SeaFoodMeals";
+import RandomUser from "../components/RandomUser";
 
 const Index = () => {
   return (
     <View>
-      <SeaFoodMeals />
+      <RandomUser />
     </View>
   );
 };
