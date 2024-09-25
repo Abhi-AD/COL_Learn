@@ -1,10 +1,10 @@
 import { Text, View } from "react-native";
-import RandomUser from "../components/RandomUser";
+import Counter from "../components/Counter";
 
 const Index = () => {
   return (
     <View>
-      <RandomUser />
+      <Counter />
     </View>
   );
 };
