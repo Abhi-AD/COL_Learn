@@ -1,12 +1,10 @@
 import { Text, View } from "react-native";
-import MyEffect from "../components/MyEffect";
-import DataFetching from "../components/DataFetching";
+import SeaFoodMeals from "../components/SeaFoodMeals";
 
 const Index = () => {
   return (
     <View>
-      <MyEffect />
-      <DataFetching />
+      <SeaFoodMeals />
     </View>
   );
 };
