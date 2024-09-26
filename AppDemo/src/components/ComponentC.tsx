@@ -2,10 +2,10 @@ import { View, Text } from "react-native";
 import React from "react";
 import ComponentD from "./ComponentD";
 
-const ComponentC = ({ username }: { username: string }) => {
+const ComponentC = () => {
   return (
     <View>
-      <ComponentD username={username} />
+      <ComponentD />
     </View>
   );
 };
