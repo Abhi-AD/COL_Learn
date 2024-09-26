@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import ComponentA from "../components/ComponentA";
+import { UserProvider } from "../context/UserContext";
 
 const Index = () => {
-  const name = "Abhishek";
   return (
     <View>
-      <ComponentA username={name} />
+      <UserProvider>
+        <ComponentA />
+      </UserProvider>
     </View>
   );
 };
