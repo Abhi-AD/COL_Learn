@@ -1,10 +1,10 @@
 import { Text, View } from "react-native";
-import Counter from "../components/Counter";
+import Todo from "../components/Todo";
 
 const Index = () => {
   return (
     <View>
-      <Counter />
+      <Todo />
     </View>
   );
 };
