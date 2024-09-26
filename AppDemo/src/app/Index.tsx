@@ -1,10 +1,10 @@
 import { Text, View } from "react-native";
-import Todo from "../components/Todo";
+import UserProfile from "../components/UserProfile";
 
 const Index = () => {
   return (
     <View>
-      <Todo />
+      <UserProfile />
     </View>
   );
 };
