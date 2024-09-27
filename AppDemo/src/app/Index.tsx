@@ -1,12 +1,10 @@
 import { Text, View } from "react-native";
-import WithoutCustomHook from "../components/WithoutCustomHook";
-import WithCustomHook from "../components/WithCustomHook";
+import MyForm from "../components/MyForm";
 
 const Index = () => {
   return (
     <View>
-      <WithoutCustomHook />
-      <WithCustomHook />
+      <MyForm />
     </View>
   );
 };
