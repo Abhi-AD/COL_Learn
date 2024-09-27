@@ -1,17 +1,12 @@
-import { SafeAreaView, Text, View } from "react-native";
-import AddRandomNumber from "../components/AddRandomNumber";
-import { NumberProvider } from "../context/RandomNumberContext";
-import RandomNumber from "../components/RandomNumber";
+import { Text, View } from "react-native";
+import WithoutCustomHook from "../components/WithoutCustomHook";
+import WithCustomHook from "../components/WithCustomHook";
 
 const Index = () => {
   return (
     <View>
-      <NumberProvider>
-        <SafeAreaView>
-          <RandomNumber />
-          <AddRandomNumber />
-        </SafeAreaView>
-      </NumberProvider>
+      <WithoutCustomHook />
+      <WithCustomHook />
     </View>
   );
 };
