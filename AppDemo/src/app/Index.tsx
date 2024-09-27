@@ -1,13 +1,17 @@
-import { Text, View } from "react-native";
-import ComponentA from "../components/ComponentA";
-import { UserProvider } from "../context/UserContext";
+import { SafeAreaView, Text, View } from "react-native";
+import AddRandomNumber from "../components/AddRandomNumber";
+import { NumberProvider } from "../context/RandomNumberContext";
+import RandomNumber from "../components/RandomNumber";
 
 const Index = () => {
   return (
     <View>
-      <UserProvider>
-        <ComponentA />
-      </UserProvider>
+      <NumberProvider>
+        <SafeAreaView>
+          <RandomNumber />
+          <AddRandomNumber />
+        </SafeAreaView>
+      </NumberProvider>
     </View>
   );
 };
