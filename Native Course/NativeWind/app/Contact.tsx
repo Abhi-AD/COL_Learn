@@ -6,7 +6,6 @@ const Contact = () => {
   return (
     <View>
       <Text>Contact</Text>
-      <Link href="/Index">Back</Link>
     </View>
   );
 };
