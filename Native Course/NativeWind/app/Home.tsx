@@ -6,7 +6,6 @@ const Home = () => {
   return (
     <View>
       <Text>Home</Text>
-      <Link href="/Index">Back</Link>
     </View>
   );
 };
