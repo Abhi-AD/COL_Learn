@@ -7,6 +7,7 @@ const About = () => {
     <View>
       <Text>About</Text>
       <Link href="/Index">Back</Link>
+      <Link href="/users/10">Go to Users Screen</Link>
     </View>
   );
 };
